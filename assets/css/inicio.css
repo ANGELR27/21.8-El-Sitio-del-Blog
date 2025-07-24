@@ -71,11 +71,6 @@ body {
     font-weight: bold;
     border-radius: 3px;
     text-align: center;
-    display: inline-block;
-    margin-top: 1rem;
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .post__read-more:hover {

@@ -1,0 +1,70 @@
+/* Estilado página de contacto */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    line-height: 1.5;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-image: url("../img/Fondo_cine.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #e50914; /* Rojo fuerte tipo cine */
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 5px black;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.75); /* Fondo oscuro transparente */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); /* Brillo rojo */
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1em;
+    resize: vertical;
+}
+
+button {
+    background-color: #e50914; 
+    color: white;
+    padding: 12px;
+    font-size: 1.1em;
+    font-family: 'Cinzel', serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b0060f;
+}

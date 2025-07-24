@@ -1,7 +1,7 @@
 # 21.8-El-Sitio-del-Blog
 
 Grupo 7
-- Miguel Simbaque
+- Miguel Simbaqueba
 - Lina Vela
 - Angel Rodriguez
 - Jeider Delgado

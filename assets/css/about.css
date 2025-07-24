@@ -1,1 +1,28 @@
 /*Estilado de acerca de nosotros*/
+
+body {
+    text-align: center;
+    font-family: 'Nunito' , sans-serif;
+    padding: 30px;
+    background-color: rgb(247, 234, 234);
+
+}
+
+.contenido {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.imagen-portada,
+.gif-final {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}

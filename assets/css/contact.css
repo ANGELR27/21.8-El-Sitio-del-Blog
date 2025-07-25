@@ -79,10 +79,10 @@ main {
 }
 
 body {
-    font-family: 'Cinzel', serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.5;
     color: #ffffff;
-    max-width: 600px;
+    max-width: 0 auto;
     margin: 0 auto;
     padding: 40px 20px;
     background-image: url("../img/Fondo_cine.jpeg");
@@ -92,21 +92,24 @@ body {
 }
 
 h2 {
-    font-family: 'Cinzel', serif;
-    font-size: 2.5em;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
     text-align: center;
-    color: #e50914; /* Rojo fuerte tipo cine */
-    margin-bottom: 25px;
+    color: #64ffda; 
+    margin-bottom: 15px;
     text-shadow: 2px 2px 5px black;
 }
 
 form {
-    background-color: rgba(0, 0, 0, 0.75); /* Fondo oscuro transparente */
-    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.63); /* Fondo oscuro transparente */
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); /* Brillo rojo */
+    box-shadow: 0 0 20px rgba(0, 204, 255, 0.7); /* Brillo rojo */
     display: grid;
     gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 20px;
 }
 
 label {
@@ -127,11 +130,11 @@ textarea {
 }
 
 button {
-    background-color: #e50914; 
-    color: white;
+    background-color: #64ffda; 
+    color: rgb(0, 0, 0);
     padding: 12px;
-    font-size: 1.1em;
-    font-family: 'Cinzel', serif;
+    font-size: 30 px;
+    font-family: 'Inter', sans-serif;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -139,7 +142,7 @@ button {
 }
 
 button:hover {
-    background-color: #b0060f;
+    background-color: #0632aa;
 }
 
 /* Estilos Footer */
@@ -168,6 +171,7 @@ html, body {
   padding: 0px 0;
   text-align: center;
   border-top: 4px solid #007acc;
+  width: 100%;
 }
 
 .site-footer a {
@@ -184,3 +188,4 @@ html, body {
 .site-footer li {
   margin: 3px 0;
 }
+

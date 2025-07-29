@@ -86,20 +86,28 @@ body {
     max-width: 0 auto;
     margin: 0 auto;
     padding: 40px 20px;
-    background-image: url("../img/Fondo_cine.jpeg");
+    background-image: url("../img/image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 h2 {
-
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     text-align: center;
     color: #64ffda; 
     margin-bottom: 15px;
     text-shadow: 2px 2px 5px black;
+    padding-top: 15px;
+}
+
+.formContenedor{
+    padding-bottom: 40px;
+}
+
+.formContenedor form {
+    margin: 0 auto; /* Esto centra el form horizontalmente */
 }
 
 form {
@@ -109,7 +117,7 @@ form {
     display: grid;
     gap: 15px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     padding: 30px 20px;
 }
 
@@ -144,6 +152,7 @@ button {
 
 button:hover {
     background-color: #0632aa;
+    color: white;
 }
 
 /* Estilos Footer */
